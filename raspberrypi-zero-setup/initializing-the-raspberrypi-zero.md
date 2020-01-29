@@ -1,4 +1,4 @@
-# Setting up the RaspberryPi Zero
+# Initializing the RaspberryPi Zero
 
 ## Initializing the RaspberryPi Zero
 
