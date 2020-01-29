@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Setting up the RaspberryPi Zero](README.md)
+* [This is the Bitcoin LightnignATM](README.md)
 
 ## Introduction
 
