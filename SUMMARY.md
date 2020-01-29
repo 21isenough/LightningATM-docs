@@ -1,6 +1,6 @@
 # Table of contents
 
-* [This is the Bitcoin LightnignATM](README.md)
+* [This is the Bitcoin LightningATM](README.md)
 
 ## Introduction
 

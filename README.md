@@ -4,7 +4,7 @@ description: >-
   will guide you through the installation and setup of your own LightningATM.
 ---
 
-# This is the Bitcoin LightnignATM
+# This is the Bitcoin LightningATM
 
 ## Initializing the RaspberryPi Zero
 
