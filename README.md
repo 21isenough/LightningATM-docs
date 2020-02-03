@@ -8,3 +8,10 @@ description: >-
 
 ## Initializing the RaspberryPi Zero
 
+Instructions on how to setup the RaspberryPi Zero \(RPi Zero\).
+
+* Downloading / flashing the image
+* Installing additional software 
+* Cloning repo
+* Setting up daemon
+
