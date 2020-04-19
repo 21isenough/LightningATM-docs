@@ -5,7 +5,8 @@
 Becoming a super hero is a fairly straight forward process:
 
 ```
-$ give me super-powers
+$ give me super-powers and more
+$ sudo sudo sudo and more
 ```
 
 {% hint style="info" %}
