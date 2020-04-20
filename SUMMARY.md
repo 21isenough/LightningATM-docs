@@ -11,6 +11,7 @@
 ## LightningATM Setup
 
 * [Software Setup](lightningatm-setup/software-setup/README.md)
+  * [Configuring the ATM](lightningatm-setup/software-setup/configuring-the-atm.md)
   * [Activating the camera](lightningatm-setup/software-setup/activating-the-camera.md)
   * [Monitoring the log file](lightningatm-setup/software-setup/monitoring_log_file.md)
 * [Wallet Setup](lightningatm-setup/wallet-setup/README.md)

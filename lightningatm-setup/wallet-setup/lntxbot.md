@@ -49,7 +49,11 @@ After you payed this invoice check your balance with `/balance` to make sure it 
 
 We will now connect the Lntxbot to your ATM. For this we access our ATM again through SSH, change into the `LightningATM` directory and start the software with:
 
-(It's best to monitor the log file with `tmux`, while you are doing this. Check out how to do that here: [Monitoring the log file](../software-setup/monitoring_log_file))
+It's best to monitor the log file with `tmux`, while you are doing this. Check out how to do that here:
+
+{% page-ref page="../software-setup/monitoring\_log\_file.md" %}
+
+
 
 ```text
 cd ~/LightningATM
@@ -70,8 +74,9 @@ It will now scan your credentials and safe it to the configuration file of the A
 
 Let's make a first proper transaction now!
 
-Insert some coins into the coin acceptor of the ATM and see how the balance increases on the display (give the ATM some time between coins for coin recognition).
+Insert some coins into the coin acceptor of the ATM and see how the balance increases on the display \(give the ATM some time between coins for coin recognition\).
 
-When you've inserted enough, press the button once (your balance on the Lntxbot needs to be big enough to cover the requested satoshis).
+When you've inserted enough, press the button once \(your balance on the Lntxbot needs to be big enough to cover the requested satoshis\).
 
-The ATM will now create a QR code and display it on the screen with a note that says `Scan to receive`. Take your mobile Lightning Wallet and scan this QR code to receive the satoshis. 
+The ATM will now create a QR code and display it on the screen with a note that says `Scan to receive`. Take your mobile Lightning Wallet and scan this QR code to receive the satoshis.
+
