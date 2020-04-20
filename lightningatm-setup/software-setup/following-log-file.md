@@ -1,0 +1,55 @@
+# Following the log file
+
+## Install tmux
+
+In order to see what is going on the ATM and check the log file, we will first install `tmux`. Tmux is a terminal multiplexer for Unix-like operating systems and allows us to split our terminal screen in half. Install `tmux` with the following command on your ATM:
+
+```
+sudo apt install tmux
+```
+
+## Using tmux
+
+After it has finished installing you can start a new tmux session with typing `tmux` into the command line.
+
+```
+tmux
+```
+
+Every action in `tmux` always has to be "announced" by the key combination `Ctrl + b`. Let's try this! First do `Ctrl + b` and then the percent sign `%` (you might have to use shift for this sign). This should have split your terminal window vertically in half.
+
+You can jump between the two sides with `Ctrl + b` and then `left arrow` or `right arrow`. You can adjust the size of the two windows by typing `Ctrl + b` and while keeping the `Ctrl` key pushed down, use the left/right arrow keys to adjust it to your liking (press the arrow keys multiple times).
+
+A pretty good cheat sheet for an advanced usage of [tmux can be found here](https://tmuxcheatsheet.com/).
+
+## Monitoring the ATMs log file
+
+We will start following our debug log file in our right side of the session. The logfile has been created automatically as you started your ATM for the very first time here: `~/.lightningATM/debug.log`
+
+Move to the right with the cursor and then type:
+
+```
+tail -f ~/.lightningATM/debug.log
+```
+
+You will get to see the last 10 entries in that log file and it will automatically update as soon as a new entry shows up in the log file.
+
+Move back to the left side of your screen and there we start the ATM software with:
+
+```
+cd ~/LightningATM
+./app
+```
+
+As the ATM starts you will now see an additional line appear on the right side saying `Application started`. Perfect, we can now monitor closely what is going on inside the ATM. It should now look something like this:
+
+
+
+
+
+## Install tmux
+
+
+{% hint style="info" %}
+ Super-powers are granted randomly so please submit an issue if you're not happy with yours.
+{% endhint %}

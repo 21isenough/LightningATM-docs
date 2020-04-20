@@ -59,4 +59,3 @@ This will again start the ATM software and we get to see `Welcome to the Lightni
 Next, we will generate a QR code with our Lntxbot credentials inside out bot in Telegram. Go the message box in Lntxbot and type `/lightningatm`. This will generate a QR code with the credentials that we need.
 
 We'll now have to put our ATM into the "credentials scanning" mode. This can be done by pushing the button 3 times.
-
