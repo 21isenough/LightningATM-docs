@@ -9,7 +9,7 @@ description: >-
 ## A word of caution
 
 {% hint style="warning" %}
-The Lightning Wallet is a "Custodial Bitcoin Wallet". This means, you are trusting those who run the software behind this wallet with Satoshis. Be careful and don't keep too many Satoshis on there.
+The Lightning Wallet is a "Custodial Bitcoin Wallet". This means, you are trusting those who run the software behind this wallet with satoshis. Be careful and don't keep too many Satoshis on there.
 {% endhint %}
 
 ## Updating your current installation
@@ -39,7 +39,7 @@ You can inspect all the different commands that are available for you on this mo
 
 ## Funding the Lntxbot
 
-In order for this Lightning Wallet to work with our ATM, we need to fund it and have some Satoshis on there. Type `/invoice <amount>` into the message box and replace `<amount>` by a certain amount of Satoshis you want to fund it with.
+In order for this Lightning Wallet to work with our ATM, we need to fund it and have some satoshis on there. Type `/invoice <amount>` into the message box and replace `<amount>` by a certain amount of Satoshis you want to fund it with.
 
 Now, you will have to pay this invoice with another wallet in order for your Lntxbot to receive them and later be available at your ATM.
 
@@ -49,6 +49,8 @@ After you payed this invoice check your balance with `/balance` to make sure it 
 
 We will now connect the Lntxbot to your ATM. For this we access our ATM again through SSH, change into the `LightningATM` directory and start the software with:
 
+(It's best to monitor the log file with `tmux`, while you are doing this. Check out how to do that here: [Monitoring the log file](../software-setup/monitoring_log_file))
+
 ```text
 cd ~/LightningATM
 ./app
@@ -56,10 +58,20 @@ cd ~/LightningATM
 
 This will again start the ATM software and we get to see `Welcome to the LightningATM` on our screen.
 
-Next, we will generate a QR code with our Lntxbot credentials inside out bot in Telegram. Go the message box in Lntxbot and type `/lightningatm`. This will generate a QR code with the credentials that we need.
+Next, we will generate a QR code with our Lntxbot credentials. Go to the message box in Lntxbot and type `/lightningatm`. This will generate a QR code with the credentials that we need.
 
 We'll now have to put our ATM into the "credentials scanning" mode. This can be done by pushing the button 3 times.
 
 After you pushed the button three times your display should say `Please scan your wallet credentials`. Now take your mobile phone with the Lntxbot and show the previously generated QR code with your credentials to the camera.
 
-It will now scan your credentials and safe it to the configuration of the ATM. I've you've been successful, your screen will say `Successful` and show you the current balance of your Lntxbot.
+It will now scan your credentials and safe it to the configuration file of the ATM. If you've been successful, your screen will say `Success!!` and show you the current balance of your Lntxbot.
+
+## First transaction with the ATM
+
+Let's make a first proper transaction now!
+
+Insert some coins into the coin acceptor of the ATM and see how the balance increases on the display (give the ATM some time between coins for coin recognition).
+
+When you've inserted enough, press the button once (your balance on the Lntxbot needs to be big enough to cover the requested satoshis).
+
+The ATM will now create a QR code and display it on the screen with a note that says `Scan to receive`. Take your mobile Lightning Wallet and scan this QR code to receive the satoshis. 

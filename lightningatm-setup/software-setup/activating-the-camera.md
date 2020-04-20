@@ -16,5 +16,5 @@ It will ask you `Would you like the camera interface to be enabled?`
 Then you'll be asked `Would you like to reboot now?`
 5. Confirm `<Yes>`
 
-As your ATM has restarted, it shoudl now have the camera enabled and be ready to take pictures and scan QR codes. 
+As your ATM has restarted, it should now have the camera enabled and be ready to take pictures and scan QR codes. 
 

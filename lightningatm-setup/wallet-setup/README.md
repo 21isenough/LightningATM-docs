@@ -2,7 +2,7 @@
 description: >-
   In the following sections you will learn how to setup different Bitcoin
   Lightning Wallets with your LightningATM. The balance of these wallets will
-  then be used to payout the Satoshis that are being b
+  then be used to payout the satoshis that are being b
 ---
 
 # Wallet Setup
@@ -17,4 +17,3 @@ Currently there is two wallets that you can use with the LightningATM:
 
 * LND \(best supported with BTCPayServer Setup\)
 * Lntxbot
-
