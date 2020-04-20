@@ -15,5 +15,6 @@ Make sure, you have finished the hardware video part 3, before you attempt to se
 
 Currently there is two wallets that you can use with the LightningATM:
 
-* LND (best supports with BTCPayServer Setup)
+* LND \(best supports with BTCPayServer Setup\)
 * Lntxbot
+

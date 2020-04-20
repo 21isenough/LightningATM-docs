@@ -11,7 +11,8 @@
 ## Wallet Setup
 
 * [Wallet Setup](wallet-setup/wallet-setup/README.md)
-  * [Untitled](wallet-setup/wallet-setup/untitled.md)
+  * [Lntxbot](wallet-setup/wallet-setup/lntxbot.md)
+  * [LND \(on BTCPayServer\)](wallet-setup/wallet-setup/lnd_btcpay.md)
 
 ## Laser-Cutting the Case
 
