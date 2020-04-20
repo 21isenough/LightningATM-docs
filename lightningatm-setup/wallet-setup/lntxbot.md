@@ -60,3 +60,6 @@ Next, we will generate a QR code with our Lntxbot credentials inside out bot in 
 
 We'll now have to put our ATM into the "credentials scanning" mode. This can be done by pushing the button 3 times.
 
+After you pushed the button three times your display should say `Please scan your wallet credentials`. Now take your mobile phone with the Lntxbot and show the previously generated QR code with your credentials to the camera.
+
+It will now scan your credentials and safe it to the configuration of the ATM. I've you've been successful, your screen will say `Successful` and show you the current balance of your Lntxbot.

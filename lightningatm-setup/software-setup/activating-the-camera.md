@@ -1,25 +1,20 @@
 # Activating the camera
 
-## Getting Super Powers
+We will now enable the camera on the ATM since it is set to `disabled` by default. Whenever you encounter an error in the log file, that is related to the camera, make sure this is setup correctly. 
 
-Becoming a super hero is a fairly straight forward process:
+Go into the config menu of the Raspberry Pi with:
 
 ```
-$ give me super-powers
+sudo raspi-config
 ```
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+1. Choose `5 Interfacing Options`
+2. Then `P1 Camera`
+It will ask you `Would you like the camera interface to be enabled?`
+3. Confirm `<Yes>`
+4. Confirm `<Finish>`
+Then you'll be asked `Would you like to reboot now?`
+5. Confirm `<Yes>`
 
-Once you're strong enough, save the world:
-
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
-
-
+As your ATM has restarted, it shoudl now have the camera enabled and be ready to take pictures and scan QR codes. 
 
