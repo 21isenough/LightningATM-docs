@@ -8,13 +8,11 @@
 * [Hardware requirements](introduction/hardware-requirements.md)
 * [Software requirements](introduction/software-requirements.md)
 
-## Wallet Setup
+## LightningATM Setup
 
-* [Wallet Setup](wallet-setup/wallet-setup/README.md)
-  * [Lntxbot](wallet-setup/wallet-setup/lntxbot.md)
-  * [LND \(on BTCPayServer\)](wallet-setup/wallet-setup/lnd_btcpay.md)
-
-## Laser-Cutting the Case
-
-* [Untitled](laser-cutting-the-case/untitled.md)
+* [Software Setup](lightningatm-setup/software-setup/README.md)
+  * [Activating the camera](lightningatm-setup/software-setup/activating-the-camera.md)
+* [Wallet Setup](lightningatm-setup/wallet-setup/README.md)
+  * [Lntxbot](lightningatm-setup/wallet-setup/lntxbot.md)
+  * [LND \(on BTCPayServer\)](lightningatm-setup/wallet-setup/lnd_btcpay.md)
 

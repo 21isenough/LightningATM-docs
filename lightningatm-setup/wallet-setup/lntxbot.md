@@ -16,7 +16,7 @@ The Lightning Wallet is a "Custodial Bitcoin Wallet". This means, you are trusti
 
 Before you continue, make sure you are on the latest version of the ATM software. For this we go into the `LightningATM` folder and execute one git command:
 
-```
+```text
 cd ~/LightningATM
 git pull
 ```
@@ -49,7 +49,7 @@ After you payed this invoice check your balance with `/balance` to make sure it 
 
 We will now connect the Lntxbot to your ATM. For this we access our ATM again through SSH, change into the `LightningATM` directory and start the software with:
 
-```
+```text
 cd ~/LightningATM
 ./app
 ```
@@ -58,4 +58,5 @@ This will again start the ATM software and we get to see `Welcome to the Lightni
 
 Next, we will generate a QR code with our Lntxbot credentials inside out bot in Telegram. Go the message box in Lntxbot and type `/lightningatm`. This will generate a QR code with the credentials that we need.
 
-We'll now have to put our ATM into the "credentials scanning" mode. This can be done by pushing the button 3 times. 
+We'll now have to put our ATM into the "credentials scanning" mode. This can be done by pushing the button 3 times.
+
