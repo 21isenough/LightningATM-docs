@@ -8,7 +8,7 @@ description: >-
 
 ## A word of caution
 
-{% hint style="info" %}
+{% hint style="warning" %}
 The Lightning Wallet is a "Custodial Bitcoin Wallet". This means, you are trusting those who run the software behind this wallet with Satoshis. Be careful and don't keep too many Satoshis on there.
 {% endhint %}
 
@@ -16,16 +16,14 @@ The Lightning Wallet is a "Custodial Bitcoin Wallet". This means, you are trusti
 
 Before you continue, make sure you are on the latest version of the ATM software. For this we go into the `LightningATM` folder and execute one git command:
 
-{% code title="" %}
-```bash
+```
 cd ~/LightningATM
 git pull
 ```
-{% endcode %}
+You should now hace the latest changes and therefore the laste version of the LightningATM software on your Raspberry Pi.
 
-{% hint style="warning" %}
-Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+## Installing Lntxbot
 
-Once you're strong enough, save the world:
+Install the mobile application "Telegram" on your phone and after you have created your account, go into the search bar and type `Lntxbot`
 
+![Searching Lntxbot](/img/searching_lntxbot.png)
