@@ -8,18 +8,12 @@ description: >-
 # Wallet Setup
 
 {% hint style="info" %}
-Be sure you have finished the hardware video part 3, before you attempt to setup your wallet \([https://www.youtube.com/watch?v=A9JKUQvvmYM](https://www.youtube.com/watch?v=A9JKUQvvmYM)\)
+Make sure, you have finished the hardware video part 3, before you attempt to setup your wallet \([https://www.youtube.com/watch?v=A9JKUQvvmYM](https://www.youtube.com/watch?v=A9JKUQvvmYM)\)
 {% endhint %}
 
-## Initializing the RaspberryPi Zero
+## Supported Wallets
 
-[https://t.co/i0cW7bRepF](https://t.co/i0cW7bRepF)
+Currently there is two wallets that you can use with the LightningATM:
 
-Once you're strong enough, save the world:
-
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
+* LND (best supports with BTCPayServer Setup)
+* Lntxbot
