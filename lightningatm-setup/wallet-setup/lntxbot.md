@@ -9,7 +9,7 @@ description: >-
 ## A word of caution
 
 {% hint style="warning" %}
-The Lightning Wallet is a "Custodial Bitcoin Wallet". This means, you are trusting those who run the software behind this wallet with satoshis. Be careful and don't keep too many Satoshis on there.
+The Lightning Wallet is a "Custodial Bitcoin Wallet". This means, you are trusting those who run the software behind this wallet with satoshis and you are not in control of your private keys. Be careful and don't keep too many satoshis on there.
 {% endhint %}
 
 ## Updating your current installation
@@ -19,6 +19,7 @@ Before you continue, make sure you are on the latest version of the ATM software
 ```text
 cd ~/LightningATM
 git pull
+sudo pip3 install -r requirements.txt
 ```
 
 You should now hace the latest changes and therefore the laste version of the LightningATM software on your Raspberry Pi.
