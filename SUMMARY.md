@@ -10,6 +10,10 @@
 
 ## LightningATM Setup
 
+* [Hardware Setup](lightningatm-setup/hardware-setup/README.md)
+  * [Hardware Overview](lightningatm-setup/hardware-setup/hardware-overview.md)
+  * [RaspberryPi and Display](lightningatm-setup/hardware-setup/raspberry-pi-and-display.md)
+  * [Assembly and Software](lightningatm-setup/hardware-setup/assembly-and-software.md)
 * [Software Setup](lightningatm-setup/software-setup/README.md)
   * [Configuring the ATM](lightningatm-setup/software-setup/configuring-the-atm.md)
   * [Activating the camera](lightningatm-setup/software-setup/activating-the-camera.md)
