@@ -20,11 +20,12 @@ Every action in `tmux` always has to be "announced" with the key combination `Ct
 
 You can jump between the two sides with `Ctrl + b` and then `left arrow` or `right arrow`. You can adjust the size of the two windows by typing `Ctrl + b` and while keeping the `Ctrl` key pushed down, use the left/right arrow keys to adjust it to your liking \(press the arrow keys multiple times\).
 
-You can detach from your current `tmux` session with `Ctrl + b` and the key `d`. If you want to get back into that same session type \(if you have only one session\):
+You can detach from your current `tmux` session with `Ctrl + b` and the key `d`. If you want to get back into that same session type:
 
 ```text
 tmux a
 ```
+(This only works, if you have just one `tmux` session).
 
 A pretty good cheat sheet for an advanced usage of tmux [can be found here](https://tmuxcheatsheet.com/).
 
@@ -50,4 +51,3 @@ cd ~/LightningATM
 As the ATM starts, you will now see an additional line appear on the right side saying `Application started`. Perfect, we can now monitor closely what is going on inside the ATM. It should now look something like this:
 
 ![Tmux Setup](../../.gitbook/assets/tmux_setup.jpg)
-
