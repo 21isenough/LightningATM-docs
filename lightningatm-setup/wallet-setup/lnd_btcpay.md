@@ -32,7 +32,7 @@ The coming steps will involve a pretty automated process and the ATM literally c
 
 In order for the ATM to connect with your LND node on BTCPayServer, `REST Uri` and the `Macaroon` will now have to be inserted into the configuration file of the ATM. The configuration file of your AT can be found here: `~/.lightningATM/config.ini`
 
-Let's inspect what is inside this wile with the editor `nano`. Type in the following to open the file with the `nano` editor:
+Let's inspect what is inside this file with the editor `nano`. Type in the following to open the file with the `nano` editor:
 
 ```text
 nano ~/.lightningATM/config.ini
@@ -40,7 +40,7 @@ nano ~/.lightningATM/config.ini
 
 Towards the end of the file you will find a section that's named `[btcpay]` and there is a variable `url`. Just below there is another section `[lnd]` with a variable `macaroon`.
 
-You will now have to set those variables equal to the values that you've found in your BTCPayServer interface. Save the file, exit and restart your ATM. It's now configured with your LND node on your BTCPayServer! Congrats, you can now skip the next steps and move all the way down to [First transaction with the ATM](https://docs.lightningatm.me/lightningatm-setup/wallet-setup/lnd_btcpay#first-transaction-with-the-atm)
+You will now have to set those variables equal to the values that you've found in your BTCPayServer interface. Save the file, exit and restart your ATM. It's now configured with your LND node on your BTCPayServer! Congrats, you can now skip the next steps and move all the way down to [First transaction with the ATM](#first-transaction-with-the-atm)
 
 
 ## Displaying your BTCPayServer QR code
