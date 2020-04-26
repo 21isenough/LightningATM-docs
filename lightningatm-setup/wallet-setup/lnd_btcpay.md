@@ -1,7 +1,6 @@
 ---
 description: >-
-  This part of the guide will show you how to setup your LND node on a
-  BTCPayServer setup connected to your LightningATM.
+  This part of the guide will show you, how to connect your LND node on a BTCPayServer setup to your LightningATM.
 ---
 
 {% hint style="info" %}
@@ -20,7 +19,7 @@ git pull
 sudo pip3 install -r requirements.txt
 ```
 
-You should now hace the latest changes and therefore the laste version of the LightningATM software on your Raspberry Pi.
+You should now have the latest changes and therefore the latest version of the LightningATM software on your Raspberry Pi.
 
 ## Displaying your BTCPayServer QR code
 

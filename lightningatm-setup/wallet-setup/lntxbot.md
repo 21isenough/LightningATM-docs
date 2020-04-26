@@ -26,7 +26,7 @@ git pull
 sudo pip3 install -r requirements.txt
 ```
 
-You should now hace the latest changes and therefore the laste version of the LightningATM software on your Raspberry Pi.
+You should now have the latest changes and therefore the latest version of the LightningATM software on your Raspberry Pi.
 
 ## Installing Lntxbot
 
