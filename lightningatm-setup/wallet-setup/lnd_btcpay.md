@@ -21,6 +21,14 @@ sudo pip3 install -r requirements.txt
 
 You should now have the latest changes and therefore the latest version of the LightningATM software on your Raspberry Pi.
 
+## For a little more advanced users
+
+The coming steps will involve a pretty automated process and the ATM literally configures itself. If you feel like you could take up a little challenge then stop reading and try to set it up yourself with these following tips. If not, just skip this step and move down to `Displaying your BTCPayServer QR code`.
+
+*
+
+
+
 ## Displaying your BTCPayServer QR code
 
 Log into your BTCPayServer where you have your LND node running. In the menu choose the item `SERVER SETTINGS` and then `Services`. That's what this will look like, on a mobile phone:
