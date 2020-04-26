@@ -25,7 +25,8 @@ You can detach from your current `tmux` session with `Ctrl + b` and the key `d`.
 ```text
 tmux a
 ```
-(This only works, if you have just one `tmux` session).
+
+\(This only works, if you have just one `tmux` session\).
 
 A pretty good cheat sheet for an advanced usage of tmux [can be found here](https://tmuxcheatsheet.com/).
 
@@ -51,3 +52,4 @@ cd ~/LightningATM
 As the ATM starts, you will now see an additional line appear on the right side saying `Application started`. Perfect, we can now monitor closely what is going on inside the ATM. It should now look something like this:
 
 ![Tmux Setup](../../.gitbook/assets/tmux_setup.jpg)
+

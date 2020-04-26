@@ -67,3 +67,4 @@ sudo systemctl status LightningATM.service
 # With this command you can check the log/debug file for errors
 tail -f ~/.lightningATM/debug.log
 ```
+
