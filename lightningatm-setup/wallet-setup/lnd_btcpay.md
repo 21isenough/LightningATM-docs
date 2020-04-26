@@ -23,13 +23,13 @@ You should now have the latest changes and therefore the latest version of the L
 
 ## Displaying your BTCPayServer QR code
 
-Log into your BTCPayServer where you have your LND node running. In the menu choose the item `SERVER SETTINGS` and then `Services`. This will look like this on a mobile phone:
+Log into your BTCPayServer where you have your LND node running. In the menu choose the item `SERVER SETTINGS` and then `Services`. That's what this will look like, on a mobile phone:
 
-PICTURE
+![Menu BTCPayServer](../../.gitbook/assets/menu_lndbtcpay.jpg)
 
 At the bottom in the table you can see the column `Access Type` and in there `LND (REST server)`. Next to `LND (REST server)` click on the link `See information`. Scroll down a little and find the green button that reads `Show QR Code` an click it.
 
-PICTURE
+![QR Code for LND REST](../../.gitbook/assets/qr_lndbtcpay.jpg)
 
 This is all we need - have this QR ready for the next step. Be aware that this QR code is only valid for 10 minutes so you might need to refresh your browser and create a new one when you'll get an error at the ATM.
 
@@ -52,7 +52,7 @@ We'll now have to put our ATM into the "credentials scanning" mode. This can be 
 
 After you pushed the button three times your display should say `Please scan your wallet credentials`. Now take your mobile phone with the LND BTCPayServer QR code and show it to the camera.
 
-It will now scan your credentials, evaluate its content and safe it to the configuration file of the ATM. If you've been successful, your screen will say `Success!!` and your ATM is successfully linked with your ATM.
+It will now scan your credentials, evaluate its content and safe it to the configuration file of the ATM. If you've been successful, your screen will say `Success!!` and your LND node is successfully linked with your ATM.
 
 ## First transaction with the ATM
 
@@ -60,13 +60,13 @@ Let's make a first proper transaction now!
 
 Insert some coins into the coin acceptor of the ATM and see how the balance increases on the display \(give the ATM some time between coins for coin recognition\). When you've inserted enough, press the button once to start the payout process.
 
-The ATM will now go into the "invoice scanning" mode and and say `Please scan your invoice` and a short countdown will appear. Your ATM is now in an indefinite loop and will constantly scan for Lightning Invoices. If you want to stop it, you will have to press `Ctrl + c` to manually interrupt the process.
+The ATM will now go into the "invoice scanning" mode and say `Please scan your invoice` and a short countdown will appear. Your ATM is now in an indefinite loop and will constantly scan for Lightning Invoices. If you want to stop it, you will have to press `Ctrl + c` to manually interrupt the process.
 
 Now take another Lightning Wallet (people often use their mobile phone wallet) and create and Lightning Invoice. You have two options:
 
 1. Show a "zero satoshi" invoice.
-This is an invoice that does not request a specific amount of satoshis (some wallet let you do that).
+This is an invoice that does not request a specific amount of satoshis (some wallets let you do that).
 2. Create an invoice with the exact amount of satoshis.
-This is an invoice in which the mount of satoshis requested is encoded into the QR code.
+This is an invoice in which the mount of satoshis requested is encoded into the QR code (higher or lower value invoices will be rejected.)
 
-Once the invoice has been scanned and was evaluated, your LND node will try to pay it thought the Lightning Network. If successful, both your mobile wallet and your ATM will confirm the transaction.
+Once the invoice has been scanned and was evaluated successfully, your LND node will try to pay it thought the Lightning Network. If successful, both your mobile wallet and your ATM will confirm the transaction. Congratulations!! :-D
