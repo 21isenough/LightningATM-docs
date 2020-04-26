@@ -6,6 +6,12 @@ description: >-
 
 # This is the Bitcoin LightningATM
 
+
+
+![](.gitbook/assets/1500x500_3.jpg)
+
+
+
 Feel free to join the "LightningATM" Telegram group for more information and help. Also a great way to communicate with other "ATM builders" and share knowledge and experience:
 
 {% hint style="success" %}
