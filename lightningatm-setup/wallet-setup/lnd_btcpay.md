@@ -23,10 +23,24 @@ You should now have the latest changes and therefore the latest version of the L
 
 ## For a little more advanced users
 
-The coming steps will involve a pretty automated process and the ATM literally configures itself. If you feel like you could take up a little challenge then stop reading and try to set it up yourself with these following tips. If not, just skip this step and move down to `Displaying your BTCPayServer QR code`.
+The coming steps will involve a pretty automated process and the ATM literally configures itself. If you feel like you could take up a little challenge then stop reading and set it up yourself with the following hints of mine. If not, just skip this step and move down to `Displaying your BTCPayServer QR code`.
 
-*
+* In your BTCPayServer go to `SERVER SETTTINGS` and then `Services`.
+* Go down to the table and where it says `LND (REST server)` and click `See information`
+* Go all the way down and where it says `More details...` click on "by clicking `here`"
+* What we need here is `REST Uri` and the `Macaroon`
 
+In order for the ATM to connect with your LND node on BTCPayServer, `REST Uri` and the `Macaroon` will now have to be inserted into the configuration file of the ATM. The configuration file of your AT can be found here: `~/.lightningATM/config.ini`
+
+Let's inspect what is inside this wile with the editor `nano`. Type in the following to open the file with the `nano` editor:
+
+```text
+nano ~/.lightningATM/config.ini
+```
+
+Towards the end of the file you will find a section that's named `[btcpay]` and there is a variable `url`. Just below there is another section `[lnd]` with a variable `macaroon`.
+
+You will now have to set those variables equal to the values that you've found in your BTCPayServer interface. Save the file, exit and restart your ATM. It's now configured with your LND node on your BTCPayServer!
 
 
 ## Displaying your BTCPayServer QR code

@@ -8,7 +8,7 @@ The configuration file will be created, the first time the ATM is turned on an r
 
 The configuration file can be found here: `~/.lightningATM/config.ini`
 
-Let's inspect what is inside this wile with the editor `nano`. Type in the following to open the file with the `nano` editor:
+Let's inspect what is inside this file with the editor `nano`. Type in the following to open the file with the `nano` editor:
 
 ```text
 nano ~/.lightningATM/config.ini
