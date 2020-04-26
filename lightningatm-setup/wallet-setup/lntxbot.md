@@ -1,6 +1,6 @@
 ---
 description: >-
-  This part of the guide will show you how to setup Lntxbot, a Biitcoin
+  This part of the guide will show you how to setup Lntxbot, a Bitcoin
   Lightning Wallet in your Telegram messenger on your mobile phone.
 ---
 
@@ -54,14 +54,13 @@ After you payed this invoice check your balance with `/balance` to make sure it 
 
 We will now connect the Lntxbot to your ATM. For this we access our ATM again through SSH, change into the `LightningATM` directory and start the software with:
 
-It's best to monitor the log file with `tmux`, while you are doing this. Check out how to do that here:
-
-{% page-ref page="../software-setup/monitoring\_log\_file.md" %}
 
 ```text
 cd ~/LightningATM
 ./app.py
 ```
+It's best to monitor the log file with `tmux`, while you are doing this. Check out how to do that here:
+{% page-ref page="../software-setup/monitoring\_log\_file.md" %}
 
 This will again start the ATM software and we get to see `Welcome to the LightningATM` on our screen.
 
