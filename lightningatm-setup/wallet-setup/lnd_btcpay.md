@@ -40,7 +40,7 @@ nano ~/.lightningATM/config.ini
 
 Towards the end of the file you will find a section that's named `[btcpay]` and there is a variable `url`. Just below there is another section `[lnd]` with a variable `macaroon`.
 
-You will now have to set those variables equal to the values that you've found in your BTCPayServer interface. Save the file, exit and restart your ATM. It's now configured with your LND node on your BTCPayServer!
+You will now have to set those variables equal to the values that you've found in your BTCPayServer interface. Save the file, exit and restart your ATM. It's now configured with your LND node on your BTCPayServer! Congrats, you can now skip the next steps and move all the way down to [First transaction with the ATM](https://docs.lightningatm.me/lightningatm-setup/wallet-setup/lnd_btcpay#first-transaction-with-the-atm)
 
 
 ## Displaying your BTCPayServer QR code
