@@ -21,3 +21,8 @@
 * [Wallet Setup](lightningatm-setup/wallet-setup/README.md)
   * [LND \(on BTCPayServer\)](lightningatm-setup/wallet-setup/lnd_btcpay.md)
   * [Lntxbot](lightningatm-setup/wallet-setup/lntxbot.md)
+
+## FAQ and common problems
+
+* [Wallet Communication](faq-and-common-problems/wallet-communication.md)
+
