@@ -50,20 +50,20 @@ You won't be able to distinguish here between username and password because it h
 
 If you type `/bluewallet` into your Lntxbot, you will get to see your username and password (don't get confused about the command "bluewallet", this is just because Lntxbot uses a piece of software from bluewallet called [LndHUB](https://bluewallet.io/lndhub/) for the accounting).
 
-The 5 digit number between `lndhub://` an the colon is your username. The long string between the colon and the `@` symbol is your password.
+The 5 digit number between `lndhub://` an the :` is your username. The long string between the :` and the `@` symbol is your password.
 
 Let's take the username and the password and convert it into the base64 string from the `/lightningatm` command and we'll see that they match. Log into your Raspberry Pi and execute the following command:
 
 ```text
-echo -ne "<password>:<password>" | base64 --wrap 0
+echo -ne "<username>:<password>" | base64 --wrap 0
 ```
-Now you can go back to the result that you've gotten from the `/lightningatm` command and you will see that this matches. You just manually encoded your username and password in base64 with the above command.
+Now you can go back to the result that you've gotten from the `/lightningatm` command and you will see that this is the same. You just manually encoded your username and password in base64 with the above command.
 
 ### &lt;url_of_lntxbot&gt;
 
 What follows after the `@` symbol from the `/bluewallet` command is the base URL. This URL needs to be appended with the API endpoint that we want to call. This might be `/balance` or `/payinvoice` depending on the action that we want to execute.
 
-We will now try to request the balance from our Lntxbot through the command line with the `/balance`. Your base URL is most likely `https://lntxbot.bigsun.xyz` so the final URL the we want to call is `https://lntxbot.bigsun.xyz/balance`.
+We will now try to request the balance from our Lntxbot through the command line with the `/balance` endpoint. Your base URL is most likely `https://lntxbot.bigsun.xyz` so the final URL the we want to call is `https://lntxbot.bigsun.xyz/balance`.
 
 We are going to do that with the command line tool called `cURL` (client for URLs). Not only do we need to call the correct URL but we also have to supply the username and password. Username and password will be sent in the base64 encoded format (as you've done above and can get from the `/lightningatm` command). It will be sent in what is called the [http header](https://www.geeksforgeeks.org/http-headers/) of this request.
 
@@ -71,4 +71,15 @@ We are going to do that with the command line tool called `cURL` (client for URL
 curl -H "Authorization: Basic <BASE64_ENCODED_PASS_AND_USERNAME>" https://lntxbot.bigsun.xyz/balance
 ```
 
-This command will make a request to the URL at the end and supply your username and password in the http header and back come - your current balance in the Lntxbot (in json format).
+This command will make a request to the URL at the end and supply your username and password in the http header and back comes - your current balance in the Lntxbot (in json format).
+
+
+## Summary
+
+You've just manually done a HTTP request to an API endpoint and supplied your username and password as a base64 encoded string in the header of the request. Bravo :-).
+
+And that is all the ATM really does when it comes to "talking with Lightning Wallets". Different wallets have different APIs and therefore different URLs and endpoints. Some might want the username and password to be sent in base64 or HEX encoding. In the case of LND the "username and password" takes the form of what is called a `macaroon` and often has to be sent in its HEX format.
+
+As mentioned above: When you show the QR code with your wallet information to the ATMs camera and it scans it, it will use that information later in various API calls as you or others interact with the ATM.
+
+Happy satoshi buying!! 
