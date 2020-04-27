@@ -15,7 +15,7 @@ Make sure, you have finished the hardware video part 3, before you attempt to se
 ### A word of caution
 
 {% hint style="warning" %}
-The Lightning Wallet is a "Custodial Bitcoin Wallet". This means, you are trusting those who run the software behind this wallet with satoshis and you are not in control of your private keys. Be careful and don't keep too many satoshis on there.
+The Lntxbot is a "Custodial Bitcoin Wallet". This means, you are trusting those who run the software behind this wallet with your satoshis and you are not in control of your private keys. Be careful and don't keep too many satoshis on there.
 {% endhint %}
 
 ### Updating your current installation
@@ -75,6 +75,10 @@ After you pushed the button three times your display should say `Please scan you
 
 It will now scan your credentials and safe it to the configuration file of the ATM. If you've been successful, your screen will say `Success!!` and show you the current balance of your Lntxbot.
 
+{% hint style="info" %}
+If you every wanted to renew your API credentials just type send `/api_refresh` to the Lntxbot. This will revoke the current credentials and replace them with new ones.
+{% endhint %}
+
 ### First transaction with the ATM
 
 Let's make a first proper transaction now!
@@ -84,4 +88,3 @@ Insert some coins into the coin acceptor of the ATM and see how the balance incr
 When you've inserted enough, press the button once \(your balance on the Lntxbot needs to be big enough to cover the requested satoshis\).
 
 The ATM will now create a QR code and display it on the screen with a note that says `Scan to receive`. Take your mobile Lightning Wallet and scan this QR code to receive the satoshis.
-
