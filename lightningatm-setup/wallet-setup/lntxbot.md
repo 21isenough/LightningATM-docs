@@ -32,7 +32,7 @@ You should now have the latest changes and therefore the latest version of the L
 
 ### Installing Lntxbot
 
-Install the mobile application "Telegram" on your phone and after you have created your account, go into the search bar and type `Lntxbot`or click here https://t.me/lntxbot.
+Install the mobile application "Telegram" on your phone and after you have created your account, go into the search bar and type `Lntxbot`or click here [https://t.me/lntxbot](https://t.me/lntxbot).
 
 ![Searching Lntxbot](../../.gitbook/assets/searching_lntxbot.jpg)
 
@@ -88,3 +88,4 @@ Insert some coins into the coin acceptor of the ATM and see how the balance incr
 When you've inserted enough, press the button once \(your balance on the Lntxbot needs to be big enough to cover the requested satoshis\).
 
 The ATM will now create a QR code and display it on the screen with a note that says `Scan to receive`. Take your mobile Lightning Wallet and scan this QR code to receive the satoshis.
+

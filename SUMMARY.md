@@ -2,11 +2,10 @@
 
 * [This is the Bitcoin LightningATM](README.md)
 
-## Introduction
+## Requirements
 
-* [Introduction](introduction/introduction.md)
-* [Hardware requirements](introduction/hardware-requirements.md)
-* [Software requirements](introduction/software-requirements.md)
+* [Hardware requirements](requirements/hardware-requirements.md)
+* [Software requirements](requirements/software-requirements.md)
 
 ## LightningATM Setup
 
