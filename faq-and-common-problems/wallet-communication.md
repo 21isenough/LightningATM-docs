@@ -43,15 +43,28 @@ Now, let's get a little bit more practical and actually talk to an API. For this
 
 First, let's find out what the URL, username and password of the API is, so we can talk to it. Send the command `/lightningatm` to your Lntxbot and you will get back a QR code and some text. The text comes back in the following format:
 
-* \<username:password\>@\<url_of_lntxbot\>
+* username:password@url_of_lntxbot
 
-### \<username:password\>
+### username:password
 You won't be able to distinguish here between username and password because it has already been encoded in the base64 format. However, before that, it was actually a separate username and password.
 
 If you type `/bluewallet`into your Lntxbot, you will get to see your username and password (don't get confused about the command "bluewallet", this is just because Lntxbot uses a piece of software from bluewallet called [LndHUB](https://bluewallet.io/lndhub/) for the accounting).
 
-The 5 digit number between `lndhub://` an the colon is your username. The long string between the colon and the `@` symbol is your password.
+The 5 digit number between `lndhub://` an the colon is your username. The long string between the colon and the `@` symbol is your password. What follows after the `@` symbol is the base URL.
 
+Let's take the username and the password and convert it into the base64 string from the `/lightningatm` command and we'll see that they match. Log into your Raspberry Pi and execute the following command:
+
+```text
+echo -ne "password:password" | base64 --wrap 0
+```
+
+
+
+
+
+
+
+&lt; &gt;
 lndhub://42546:04d16c4cd379e82dc46591daafa494ca40b76f51815b5a39d8b0db9e3eee003b@https://lntxbot.bigsun.xyz
 
 
