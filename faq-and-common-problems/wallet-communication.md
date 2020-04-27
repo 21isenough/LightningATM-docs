@@ -43,9 +43,9 @@ Now, let's get a little bit more practical and actually talk to an API. For this
 
 First, let's find out what the URL, username and password of the API is, so we can talk to it. Send the command `/lightningatm` to your Lntxbot and you will get back a QR code and some text. The text comes back in the following format:
 
-* "<username:password>@<url_of_lntxbot>"
+* \<username:password\>@\<url_of_lntxbot\>
 
-### "<username:password>"
+### \<username:password\>
 You won't be able to distinguish here between username and password because it has already been encoded in the base64 format. However, before that, it was actually a separate username and password.
 
 If you type `/bluewallet`into your Lntxbot, you will get to see your username and password (don't get confused about the command "bluewallet", this is just because Lntxbot uses a piece of software from bluewallet called [LndHUB](https://bluewallet.io/lndhub/) for the accounting).
