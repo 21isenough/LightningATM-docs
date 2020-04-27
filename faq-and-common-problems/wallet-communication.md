@@ -37,18 +37,20 @@ The URL to which your ATM will be talking to, depends on the software of the Lig
 
 The username and password might need to be supplied as you're used to it from logging into websites but could as well be encoded in a [hexadecimal](https://www.lifewire.com/what-is-hexadecimal-2625897) or [base64](https://base64.guru/learn/what-is-base64) string.
 
-## Talking to API in practice
+## Talking to an API in practice
 
-Now, let's get a little bit more practical and actually talk to an API. For this example, I'll be using the API of the Lntxbot because it is available to everyone with a Telegram account and can be easily followed along (more information on how to install Lntxbot can [be found here](https://docs.lightningatm.me/lightningatm-setup/wallet-setup/lntxbot#installing-lntxbot)).
+Now, let's get a little bit more practical and actually talk to an API. For this example, I'll be using the API of the Lntxbot because it is available to everyone with a Telegram account and can easily be followed along (more information on how to install Lntxbot can [be found here](https://docs.lightningatm.me/lightningatm-setup/wallet-setup/lntxbot#installing-lntxbot)).
 
 First, let's find out what the URL, username and password of the API is, so we can talk to it. Send the command `/lightningatm` to your Lntxbot and you will get back a QR code and some text. The text comes back in the following format:
 
-* <username:password>@<url_of_lntxbot>
+* "<username:password>@<url_of_lntxbot>"
 
-### <username:password>
+### "<username:password>"
 You won't be able to distinguish here between username and password because it has already been encoded in the base64 format. However, before that, it was actually a separate username and password.
 
-If you type `/bluewallet`into your Lntxbot, you will get to see your username and password. The 5 digit number between `lndhub://` an the colon is your username. The long string between the colon and the `@` symbol is your password. 
+If you type `/bluewallet`into your Lntxbot, you will get to see your username and password (don't get confused about the command "bluewallet", this is just because Lntxbot uses a piece of software from bluewallet called [LndHUB](https://bluewallet.io/lndhub/) for the accounting).
+
+The 5 digit number between `lndhub://` an the colon is your username. The long string between the colon and the `@` symbol is your password.
 
 lndhub://42546:04d16c4cd379e82dc46591daafa494ca40b76f51815b5a39d8b0db9e3eee003b@https://lntxbot.bigsun.xyz
 
@@ -61,24 +63,3 @@ Make sure, you have finished the hardware video part 3, before you attempt to se
 
 
 ###
-
-
-
-
-
-```
-$ give me super-powers
-```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
