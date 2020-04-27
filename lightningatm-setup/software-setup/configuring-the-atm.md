@@ -1,6 +1,6 @@
 # Configuring the ATM
 
-## Access the ATMs configuration file
+## 👨💻 Access the ATMs configuration file
 
 There is a configuration file that lets us make changes to the core configurations of the ATM such as the currency displayed and more.
 
@@ -8,7 +8,7 @@ The configuration file will be created, the first time the ATM is turned on an r
 
 The configuration file can be found here: `~/.lightningATM/config.ini`
 
-Let's inspect what is inside this file with the editor `nano`. Type in the following to open the file with the `nano` editor:
+Let's inspect 🔎 what is inside this file with the editor `nano`. Type in the following to open the file with the `nano` editor:
 
 ```text
 nano ~/.lightningATM/config.ini
@@ -42,15 +42,15 @@ fee = 2
 
   The variable `fee` defines how much fee you charge those who use your ATM
 
-You can now move with your cursor to the desired variable and simply change it to your liking. I'd recommend to only change those three values and leave the rest as it is \(unless you know exactly what you are doing\).
+You can now move with your cursor to the desired variable and simply change it to your liking. I'd recommend to only change those three values and leave the rest as it is \(unless you know exactly what you are doing 👆 \).
 
 In order to save the file and exit you will have to press `Ctrl + x` and it will ask you `Save modified buffer?`. You can confirm by entering `y` \(for yes\) and hitting `Enter` to confirm.
 
-## Starting the ATM automatically
+## 🚀 Starting the ATM automatically
 
-If you want that the ATM software starts automatically, every time you boot the Raspberry Pi, you can do this with the systemd file that is part of the software.
+If you want that the ATM software starts automatically, every time you boot the Raspberry Pi, you can do this with the systemd file that is part of the software files.
 
-In order to activate the daemon, you first have to copy the file into the right folder on your Rasperry Pi and then enable the daemon with these commands:
+In order to activate the daemon, you first have to copy the file into the right folder on your Rasperry Pi 🍓 and then enable the daemon with these commands:
 
 ```text
 cd ~/LightningATM

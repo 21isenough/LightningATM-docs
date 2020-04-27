@@ -7,13 +7,13 @@ description: >-
 
 # Wallet Communication
 
-## How the ATM "talks"
+## 🔈How the ATM "talks"
 
-When someone uses the LightningATM, they insert a certain amount of coins into the ATM and expect bitcoin / satoshis back for it \(from now on, I'll just simply write "satoshis", the smallest denomination of one bitcoin\). The ATM must therefore be connected to a Lightning Wallet from which it sends satoshis to the person who has inserted the coins.
+When someone uses the LightningATM, they insert a certain amount of coins into the ATM and expect bitcoin / satoshis back for it \(from now on, I'll just simply write "satoshis", the smallest denomination of one bitcoin\). The ATM must therefore be connected to a Lightning Wallet ⚡ from which it sends satoshis to the person who has inserted the coins.
 
 To ATM doesn't have any satoshis "on it". It will always have to "communicate" to a Lightning Wallet over a network and tell the wallet to send the satoshis. This communication is happening over an API \([Application Programming Interface](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)\) of a Lightning Wallet.
 
-APIs can be talked to in various ways. Most often the ATM will talk to them through a URL. Almost all API communication also requires a username and a password.
+APIs can be talked to in various ways. Most often the ATM will talk to them through a URL. Almost all API communication also requires a username and a password 🔑 .
 
 1. The API might be accessed at [https://my-lightning-wallet.com/api](https://my-lightning-wallet.com/api)
 2. To prove that the ATM is allowed to use this API, it will have to provide a username and a password
@@ -22,7 +22,7 @@ It's therefore clear that we have to store this information \(URL, username and 
 
 The ATM will then read the content of the QR code and store those three pieces of information in a configuration file. From then on, it uses that information to talk to that Lightning Wallet to facilitate payouts and other communication like requesting the current state of the Lightning Wallet such as "balance" or "channel information".
 
-## API endpoint, usernames and passwords
+## 🖥 API endpoint, usernames and passwords
 
 Let's take a closer look at the kind of information that is needed to talk to the API of a Lightning Wallet. Be aware that these pieces of information come in various shapes and encodings.
 
@@ -37,7 +37,7 @@ The URL to which your ATM will be talking to, depends on the software of the Lig
 
 The username and password might need to be supplied as you're used to it from logging into websites but could as well be encoded in a [hexadecimal](https://www.lifewire.com/what-is-hexadecimal-2625897) or [base64](https://base64.guru/learn/what-is-base64) string.
 
-## Talking to an API in practice
+## 👩💻 Talking to an API in practice
 
 Now, let's get a little bit more practical and actually talk to an API. For this example, I'll be using the API of the Lntxbot because it is available to everyone with Telegram no their phone and can easily be followed along \(more information on how to install Lntxbot can [be found here](https://docs.lightningatm.me/lightningatm-setup/wallet-setup/lntxbot#installing-lntxbot)\).
 
@@ -77,13 +77,13 @@ This command will make a request to the URL at the end and supply your username 
 
 ## Summary
 
-You've just manually done a HTTP request to an API endpoint and supplied your username and password as a base64 encoded string in the header of the request. Bravo :-\).
+You've just manually done a HTTP request to an API endpoint and supplied your username and password as a base64 encoded string in the header of the request. Bravo 🥳🎉 .
 
-And that is all the ATM really does when it comes to "talking with Lightning Wallets". Different wallets have different APIs and therefore different URLs and endpoints. Some might want the username and password to be sent in base64 or HEX encoding. In the case of LND the "username and password" takes the form of a `cookie` that is called a `macaroon` and has to be sent in its HEX format \[\(more info here\)\([https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md\#macaroon-delegation](https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md#macaroon-delegation)\)\].
+And that is all the ATM really does when it comes to "talking with Lightning Wallets ⚡ ". Different wallets have different APIs and therefore different URLs and endpoints. Some might want the username and password to be sent in base64 or HEX encoding. In the case of LND the "username and password" takes the form of a `cookie` that is called a `macaroon` and has to be sent in its HEX format \[\(more info here\)\([https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md\#macaroon-delegation](https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md#macaroon-delegation)\)\].
 
 As mentioned above: When you show the QR code with your wallet information to the ATMs camera and it scans it, it will use that information later in various API calls as you or others interact with the ATM. It stores these details in the configuration file of your ATM, which you can take a look at when you run the command `nano ~/.lightningATM/config.ini`.
 
-Happy satoshi buying!!
+Happy satoshi buying!! 💰 
 
 {% hint style="info" %}
 Take a look at the source code of the ATM where we request the balance for the ATM in python rather than through the command line here: [Requesting Lntxbot balance in python](https://github.com/21isenough/LightningATM/blob/a35a0a128f016620a27b2c03b7539439fc396fdf/lntxbot.py#L80)

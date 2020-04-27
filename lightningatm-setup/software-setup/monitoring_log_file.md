@@ -1,6 +1,6 @@
 # Monitoring the log file
 
-## Install tmux
+## 👨💻 Install tmux
 
 In order to see what is going on the ATM and check the log file, we will first install `tmux`. Tmux is a terminal multiplexer for Unix-like operating systems and allows us to split our terminal screen in half \(among other things\). Install `tmux` with the following command on your ATM:
 
@@ -8,7 +8,7 @@ In order to see what is going on the ATM and check the log file, we will first i
 sudo apt install tmux
 ```
 
-## Using tmux
+## 👷 Using tmux
 
 After it has finished installing you can start a new tmux session by typing `tmux` into the command line.
 
@@ -16,9 +16,9 @@ After it has finished installing you can start a new tmux session by typing `tmu
 tmux
 ```
 
-Every action in `tmux` always has to be "announced" with the key combination `Ctrl + b`. Let's try this! First do `Ctrl + b` and then the percent sign `%` \(you might have to use the `Shift` key for this\). This should have split your terminal window vertically in half.
+Every action in `tmux` has to be "announced"  with the key combination `Ctrl + b`. Let's try this 🍪 ! First do `Ctrl + b` and then the percent sign `%` \(you might have to use the `Shift` key for this\). This should have split your terminal window vertically in half.
 
-You can jump between the two sides with `Ctrl + b` and then `left arrow` or `right arrow`. You can adjust the size of the two windows by typing `Ctrl + b` and while keeping the `Ctrl` key pushed down, use the left/right arrow keys to adjust it to your liking \(press the arrow keys multiple times\).
+You can jump between the two sides with `Ctrl + b` and then `left arrow` or `right arrow`. You can adjust the size of the two windows by typing `Ctrl + b` and while keeping the `Ctrl` key pushed down , use the left/right arrow keys to adjust it to your liking \(press the arrow keys multiple times\).
 
 You can detach from your current `tmux` session with `Ctrl + b` and the key `d`. If you want to get back into that same session type:
 
@@ -30,7 +30,7 @@ tmux a
 
 A pretty good cheat sheet for an advanced usage of tmux [can be found here](https://tmuxcheatsheet.com/).
 
-## Monitoring the ATMs log file
+## 🖥 Monitoring the ATMs log file
 
 We will start following our debug log file in our right side of the session. The logfile has been created automatically as you started your ATM for the very first time here: `~/.lightningATM/debug.log`
 

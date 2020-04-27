@@ -1,6 +1,6 @@
 # Activating the camera
 
-We will now enable the camera on the ATM since it is set to `disabled` by default. Whenever you encounter an error in the log file, that is related to the camera, make sure this is setup correctly.
+We will now enable the camera 📸 on the ATM since it is set to `disabled` by default. Whenever you encounter an error in the log file, that is related to the camera, make sure this is setup correctly.
 
 Go into the config menu of the Raspberry Pi with:
 
@@ -20,5 +20,5 @@ sudo raspi-config
 
 5. Confirm `<Yes>`
 
-As your ATM has restarted, it should now have the camera enabled and be ready to take pictures and scan QR codes.
+As your ATM has restarted, it should now have the camera enabled and be ready to take pictures 🖼 and scan QR codes.
 
