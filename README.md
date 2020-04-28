@@ -1,12 +1,12 @@
 ---
 description: >-
-  Hey :-)  Pleased to have you! You arrived on the documentation website to
-  build your own LightningATM.
+  Welcome to the documentation for the Bitcoin LightningATM. The following pages
+  will guide you through the installation and setup of your own LightningATM.
 ---
 
 # This is the Bitcoin LightningATM
 
-
+Hey 😉 Pleased to have you! You arrived on the documentation website to build your own LightningATM.
 
 ![](.gitbook/assets/incollage_20200427_194903316.jpg)
 

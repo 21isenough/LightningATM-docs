@@ -1,6 +1,7 @@
 # Table of contents
 
 * [This is the Bitcoin LightningATM](README.md)
+* [What will it look like?](what-will-it-look-like.md)
 
 ## Requirements
 
