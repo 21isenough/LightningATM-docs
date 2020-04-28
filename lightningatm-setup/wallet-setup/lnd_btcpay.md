@@ -43,7 +43,7 @@ nano ~/.lightningATM/config.ini
 
 Towards the end of the file you will find a section that's named `[btcpay]` and there is a variable `url`. Just below there is another section `[lnd]` with a variable `macaroon`.
 
-You will now have to set those variables equal to the values that you've found in your BTCPayServer interface. Save the file, exit and restart your ATM. It's now configured with your LND node on your BTCPayServer! Congrats 🎉 , you can now skip the next steps and move all the way down to [First transaction with the ATM](lnd_btcpay.md#first-transaction-with-the-atm)
+You will now have to set those variables equal to the values that you've found in your BTCPayServer interface. Save the file, exit and restart your ATM. It's now configured with your LND node on your BTCPayServer! Congrats 🎉 , you can now skip the next steps and move all the way down to [First transaction with the ATM](#first-transaction-with-the-atm)
 
 ### 📱 Displaying your BTCPayServer QR code
 
@@ -96,5 +96,4 @@ Now take another Lightning Wallet \(people often use their mobile phone wallet\)
 
    This is an invoice in which the mount of satoshis requested is encoded into the QR code \(higher or lower value invoices will be rejected.\)
 
-Once the invoice has been scanned and was evaluated successfully, your LND node will try to pay it through the Lightning Network. If successful, both your mobile wallet and your ATM will confirm the transaction. Congratulations!! 😎 
-
+Once the invoice has been scanned and was evaluated successfully, your LND node will try to pay it through the Lightning Network. If successful, both your mobile wallet and your ATM will confirm the transaction. Congratulations!! 😎
