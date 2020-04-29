@@ -8,7 +8,7 @@ description: >-
 
 Hey 😉 Pleased to have you! You arrived on the documentation website to build your own LightningATM.
 
-![](.gitbook/assets/incollage_20200427_194903316.jpg)
+![](.gitbook/assets/incollage_20200429_161155681_new.jpg)
 
 ### 🔎 What you'll find here  :
 
