@@ -8,17 +8,17 @@ description: >-
 
 ## 🛒 What you will need ...
 
-1. **Raspberry Pi Zero WH**
-2. **16 GB SD Card**
-3. **PaPiRus Zero - ePaper / eInk Screen**
-4. **Raspberry Pi Zero Camera \(5MP\)**
-5. **Coin Acceptor 616**
-6. **Button**
-7. **Jumper Cables**
-8. **USB Cable**
-9. **Power supply \(Option 1 or 2\)**
-10. **Blue tack and double-sided tape or glue**
-11. **Case for the ATM**
+1. **[Raspberry Pi Zero WH](#1-raspberry-pi-zero-wh-http-bit-ly-2-maxbr6)**
+2. **[16 GB SD Card](#2-16-gb-micro-sd-card-http-bit-ly-39-anm-4-f)**
+3. **[PaPiRus Zero - ePaper / eInk Screen](#3-papirus-zero-epaper-eink-screen-http-bit-ly-2-kdsovh)**
+4. **[Raspberry Pi Zero Camera \(5MP\)](#4-raspberry-pi-zero-camera-5-mp-http-bit-ly-2-kupvt1)**
+5. **[Coin Acceptor 616](#5-coin-acceptor-616-http-bit-ly-2-lhfowk)**
+6. **[Button](#6-button-http-bit-ly-2-lk-4-aqr)**
+7. **[Jumper Cables](#7-jumper-cables-http-bit-ly-2-kfgns4)**
+8. **[USB Cable](#8-usb-cable)**
+9. **[Power supply \(Option 1 or 2\)](#9-power-supply)**
+10. **[Blue tack and double-sided tape or glue](#10-blue-tack-and-double-sided-tape-or-glue)**
+11. **[Case for the ATM](#11-case-for-the-atm)**
 
 ### 1. Raspberry Pi Zero WH - [http://bit.ly/2maXBr6](http://bit.ly/2maXBr6)
 
@@ -66,4 +66,3 @@ Choose the right adhesive for your setup depending on how permanent you want to 
 If you are planning to laser cut my current design of the ATM, you can find the dxf files for your laser cutter here: [Laser cut template on GitHub](https://github.com/21isenough/LightningATM/tree/master/resources/3dmodels) However, the hardware setup is quite flexible so that you can mount it into any box that you see fit.
 
 ![Laser Cut Design for ATM](../.gitbook/assets/img_20200107_233809.jpg)
-
