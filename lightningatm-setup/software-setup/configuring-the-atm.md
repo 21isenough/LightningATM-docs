@@ -1,6 +1,6 @@
 # Configuring the ATM
 
-## 👨💻 Access the ATMs configuration file
+## 💻 Access the ATMs configuration file
 
 There is a configuration file that lets us make changes to the core configurations of the ATM such as the currency displayed and more.
 

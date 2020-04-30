@@ -3,7 +3,7 @@ description: >-
   A quick description on how you can start the ATM automatically, as soon as the Raspberry Pi has booted.
 ---
 
-# 🚀 Starting the ATM automatically
+## 🚀 Starting the ATM automatically
 
 If you want that the ATM software starts automatically, every time you boot the Raspberry Pi, you can do this with the systemd file that is part of the software files.
 
