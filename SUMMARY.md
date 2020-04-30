@@ -25,4 +25,4 @@
 ## FAQ and common problems
 
 * [Wallet Communication](faq-and-common-problems/wallet-communication.md)
-
+* [Starting Automatically](faq-and-common-problems/starting-automatically.md)

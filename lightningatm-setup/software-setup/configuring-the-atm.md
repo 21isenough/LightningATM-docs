@@ -45,26 +45,3 @@ fee = 2
 You can now move with your cursor to the desired variable and simply change it to your liking. I'd recommend to only change those three values and leave the rest as it is \(unless you know exactly what you are doing 👆 \).
 
 In order to save the file and exit you will have to press `Ctrl + x` and it will ask you `Save modified buffer?`. You can confirm by entering `y` \(for yes\) and hitting `Enter` to confirm.
-
-## 🚀 Starting the ATM automatically
-
-If you want that the ATM software starts automatically, every time you boot the Raspberry Pi, you can do this with the systemd file that is part of the software files.
-
-In order to activate the daemon, you first have to copy the file into the right folder on your Rasperry Pi 🍓 and then enable the daemon with these commands:
-
-```text
-cd ~/LightningATM
-sudo cp LightningATM.service /etc/systemd/system/LightningATM.service
-sudo systemctl enable LightningATM.service
-```
-
-You can check it the daemon is up and running as well as check the log file with these commands:
-
-```text
-# With this command you can check if it is active and running
-sudo systemctl status LightningATM.service
-
-# With this command you can check the log/debug file for errors
-tail -f ~/.lightningATM/debug.log
-```
-
