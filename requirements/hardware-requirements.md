@@ -54,8 +54,8 @@ You need at least one USB cable to power the RPi Zero \(if you choose "Option 1"
 
 ### 9. Power supply
 
-1. Option 1 \(recommended\): Buy a 5V power supply and a small transformer to step up 5V to 12V \(this is the one I use [http://bit.ly/36UypXy](http://bit.ly/36UypXy)\). This option will allow you to run the whole ATM completely on 5V power. Two \(2\) USB power ports are required \(power bank with two outlets or wall plugged power supply with two outlets\).
-2. Option 2: Buy a 5V and a 12V power supply. 5V for the RPi Zero \(simple USB adapter\) and 12V for the coin acceptor.s
+1. Option 1 \(recommended\): Buy a 5V power supply and a small transformer to step up 5V to 12V \(this is the one I use [http://bit.ly/36UypXy](http://bit.ly/36UypXy)\). This option will allow you to run the whole ATM completely on 5V power. Make sure your power supply or power bank can supply 2 amps.
+2. Option 2: Buy a 5V and a 12V power supply. 5V for the RPi Zero \(simple USB adapter\) and 12V for the coin acceptor.
 
 ### 10. Blue tack and double-sided tape or glue
 
@@ -66,4 +66,3 @@ Choose the right adhesive for your setup depending on how permanent you want to 
 If you are planning to laser cut my current design of the ATM, you can find the dxf files for your laser cutter here: [Laser cut template on GitHub](https://github.com/21isenough/LightningATM/tree/master/resources/3dmodels) However, the hardware setup is quite flexible so that you can mount it into any box that you see fit.
 
 ![Laser Cut Design for ATM](../.gitbook/assets/img_20200107_233809.jpg)
-
