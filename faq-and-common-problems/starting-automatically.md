@@ -1,6 +1,7 @@
 ---
 description: >-
-  A quick description on how you can start the ATM automatically, as soon as the Raspberry Pi has booted.
+  A quick description on how you can start the ATM automatically, as soon as the
+  Raspberry Pi has booted.
 ---
 
 # Starting Automatically
@@ -26,3 +27,4 @@ sudo systemctl status LightningATM.service
 # With this command you can check the log/debug file for errors
 tail -f ~/.lightningATM/debug.log
 ```
+

@@ -14,6 +14,7 @@
   * [Hardware Overview](lightningatm-setup/hardware-setup/hardware-overview.md)
   * [RaspberryPi and Display](lightningatm-setup/hardware-setup/raspberry-pi-and-display.md)
   * [Assembly and Software](lightningatm-setup/hardware-setup/assembly-and-software.md)
+  * [Wiring Details](lightningatm-setup/hardware-setup/wiring-details.md)
 * [Software Setup](lightningatm-setup/software-setup/README.md)
   * [Configuring the ATM](lightningatm-setup/software-setup/configuring-the-atm.md)
   * [Activating the camera](lightningatm-setup/software-setup/activating-the-camera.md)
@@ -26,3 +27,4 @@
 
 * [Wallet Communication](faq-and-common-problems/wallet-communication.md)
 * [Starting Automatically](faq-and-common-problems/starting-automatically.md)
+

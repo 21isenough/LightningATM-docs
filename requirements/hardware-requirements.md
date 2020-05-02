@@ -66,3 +66,4 @@ Choose the right adhesive for your setup depending on how permanent you want to 
 If you are planning to laser cut my current design of the ATM, you can find the dxf files for your laser cutter here: [Laser cut template on GitHub](https://github.com/21isenough/LightningATM/tree/master/resources/3dmodels) However, the hardware setup is quite flexible so that you can mount it into any box that you see fit.
 
 ![Laser Cut Design for ATM](../.gitbook/assets/img_20200107_233809.jpg)
+

@@ -45,3 +45,4 @@ fee = 2
 You can now move with your cursor to the desired variable and simply change it to your liking. I'd recommend to only change those three values and leave the rest as it is \(unless you know exactly what you are doing 👆 \).
 
 In order to save the file and exit you will have to press `Ctrl + x` and it will ask you `Save modified buffer?`. You can confirm by entering `y` \(for yes\) and hitting `Enter` to confirm.
+
