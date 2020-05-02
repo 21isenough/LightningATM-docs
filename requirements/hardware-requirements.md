@@ -67,3 +67,12 @@ If you are planning to laser cut my current design of the ATM, you can find the 
 
 ![Laser Cut Design for ATM](../.gitbook/assets/img_20200107_233809.jpg)
 
+## 📒 Further Details
+
+* The LightningATM talks over Wifi Internet to API endpoints in order to facilitate the payout of bitcoin to the end-users lightning wallet. Make sure there's Wifi available and you know the Wifis name \(SSID\) and the password.
+* Luster terminals make your life easier when connecting cables and can prevent soldering. 
+* A soldering iron and solder are handy and some connections might be better soldered then clamped/wrapped/screwed. This again depends on how permanent you want it to be. 
+* Make sure you have different screw drivers and knifes available 
+* For my laser cut case, I bought small little plastic knobs that I attached to the bottom of the case as feet. 
+* For my laser cut design you would also need M2.5x10mm screws to assemble the pieces [http://bit.ly/382jufj](http://bit.ly/382jufj)
+
