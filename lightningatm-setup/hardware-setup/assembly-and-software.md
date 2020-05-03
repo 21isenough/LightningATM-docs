@@ -4,37 +4,33 @@
 
 ### Setup process as shown in the video
 
-1. Download the Raspbian ATM Image \(https://www.dropbox.com/s/kg5swxhdb9h2a4m/2019-04-08-raspbian-stretch-lightningatm.gz\) 
+1. Download the Raspbian ATM Image \(https://www.dropbox.com/s/kg5swxhdb9h2a4m/2019-04-08-raspbian-stretch-lightningatm.gz\)
 2. Flash the Image to the SD Card with Etcher.
-3. Add one files to the /boot folder on the SD Card.
+3. Add one file to the /boot folder on the SD Card.
    * Create "wpa\_supplicant.conf" file and add the Wifi credentials.
 
 ```text
-ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 
-network={ 
-        ssid="You_WiFi_SSID" 
-        psk="You_WiFi_Password" 
+network={
+        ssid="You_WiFi_SSID"
+        psk="You_WiFi_Password"
 }
 ```
 
-1. Connect to it via the console with the user "pi"
-   * $ ssh pi@192.168.1.154
-2. Confirm to add the ECDSA key fingerprint with "yes"
-3. Login with the default password "raspberry"
-4. Change the default password of the user "pi" to your own
+4. Connect to it via the console with the user "pi"
+   * $ ssh pi@192.168.X.XXX
+5. Confirm to add the ECDSA key fingerprint with "yes"
+6. Login with the default password "raspberry"
+7. Change the default password of the user "pi" to your own
    * $ passwd
    * After confirming the current password, type your new password twice.
-5. Upgrade the RPi Zero to the newest versions of all Software
+8. Upgrade the RPi Zero to the newest versions of all Software
    * $ sudo apt update && sudo apt upgrade
-6. Clone the current version of the LightningATM Software
+9. Clone the current version of the LightningATM Software
    * $ git clone [https://github.com/21isenough/LightningATM.git](https://github.com/21isenough/LightningATM.git)
    * $ cd LightningATM
    * $ pip3 install -r requirements.txt
 7. After reboot connect again to the RPi Zero with your new password.
    * $ ssh pi@192.168.1.154
-8. Connect all cables
-
-
-
