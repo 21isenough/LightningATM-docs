@@ -34,4 +34,3 @@ network={
   * $ pip3 install -r requirements.txt
 * After reboot connect again to the RPi Zero with your new password.
   * $ ssh pi@192.168.X.XXX
-
