@@ -17,6 +17,7 @@ This guide will be publicly released around the the 22nd May.
 * Hardware and software requirements in detail
 * About 1.5 hours of video content to assemble all the hardware parts
 * Written documentation for the software and wallet setup
+* Trouble shooting and FAQ section
 
 > 👩💻 For the code head over to [https://github.com/21isenough/LightningATM](https://github.com/21isenough/LightningATM)
 
