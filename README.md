@@ -19,7 +19,7 @@ This guide will be publicly released around the the 22nd May.
 * Written documentation for the software and wallet setup
 * Trouble shooting and FAQ section
 
-> 👩💻 For the code head over to [https://github.com/21isenough/LightningATM](https://github.com/21isenough/LightningATM)
+> 💻 For the code head over to [https://github.com/21isenough/LightningATM](https://github.com/21isenough/LightningATM)
 
 Feel free to join the "LightningATM" Telegram group for more information and help. Also a great way to communicate with other "ATM builders" and share knowledge and experience:
 
