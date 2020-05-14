@@ -17,3 +17,5 @@
 9. Cables that connect the Papirus E-Ink display to the Raspberry Pi Zero \(see pinout below\).
 
 ![](../../.gitbook/assets/pinout.png)
+
+This pinout is only applicable if you use the "PaPiRus Zero - ePaper / eInk Screen". For other eInk displays please refer to its manual or ask me directly for help. 
