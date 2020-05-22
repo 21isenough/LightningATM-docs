@@ -20,6 +20,8 @@ description: >-
 10. [**Blue tack and double-sided tape or glue**](hardware-requirements.md#10-blue-tack-and-double-sided-tape-or-glue)
 11. [**Case for the ATM**](hardware-requirements.md#11-case-for-the-atm)
 
+Price estimate: 50-70 USD (without the case, just hardware)
+
 ### 1. Raspberry Pi Zero WH - [http://bit.ly/2maXBr6](http://bit.ly/2maXBr6)
 
 If you can, get the version WH \(not just W\). It comes with pre-soldered headers and can be used out of the box. You should technically also be able to make this work on other versions of the Raspberry Pi but I haven't tried it.
@@ -70,9 +72,8 @@ If you are planning to laser cut my current design of the ATM, you can find the 
 ## 📒 Further Details
 
 * The LightningATM talks over Wifi Internet to API endpoints in order to facilitate the payout of bitcoin to the end-users lightning wallet. Make sure there's Wifi available and you know the Wifis name \(SSID\) and the password.
-* Luster terminals make your life easier when connecting cables and can prevent soldering. 
-* A soldering iron and solder are handy and some connections might be better soldered then clamped/wrapped/screwed. This again depends on how permanent you want it to be. 
-* Make sure you have different screw drivers and knifes available 
-* For my laser cut case, I bought small little plastic knobs that I attached to the bottom of the case as feet. 
+* Luster terminals make your life easier when connecting cables and can prevent soldering.
+* A soldering iron and solder are handy and some connections might be better soldered then clamped/wrapped/screwed. This again depends on how permanent you want it to be.
+* Make sure you have different screw drivers and knifes available
+* For my laser cut case, I bought small little plastic knobs that I attached to the bottom of the case as feet.
 * For my laser cut design you would also need M2.5x10mm screws to assemble the pieces [http://bit.ly/382jufj](http://bit.ly/382jufj)
-
