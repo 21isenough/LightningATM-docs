@@ -20,7 +20,8 @@ description: >-
 10. [**Blue tack and double-sided tape or glue**](hardware-requirements.md#10-blue-tack-and-double-sided-tape-or-glue)
 11. [**Case for the ATM**](hardware-requirements.md#11-case-for-the-atm)
 
-Price estimate: 50-70 USD (without the case, just hardware)
+Price hardware: $50-$70 (only hardware)
+Price case: as little as $30 (depending on your supplier)
 
 ### 1. Raspberry Pi Zero WH - [http://bit.ly/2maXBr6](http://bit.ly/2maXBr6)
 
