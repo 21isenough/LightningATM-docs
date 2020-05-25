@@ -53,3 +53,6 @@ As the ATM starts, you will now see an additional line appear on the right side 
 
 ![Tmux Setup](../../.gitbook/assets/tmux_setup.jpg)
 
+{% hint style="success" %}
+Join the Telegram group here: [https://t.me/lightningatm\_building](https://t.me/lightningatm_building)
+{% endhint %}

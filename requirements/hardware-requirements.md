@@ -6,6 +6,10 @@ description: >-
 
 # Hardware requirements
 
+{% hint style="success" %}
+Join the Telegram group here: [https://t.me/lightningatm\_building](https://t.me/lightningatm_building)
+{% endhint %}
+
 ## 🛒 What you will need ...
 
 1. [**Raspberry Pi Zero WH**](hardware-requirements.md#1-raspberry-pi-zero-wh-http-bit-ly-2-maxbr6)

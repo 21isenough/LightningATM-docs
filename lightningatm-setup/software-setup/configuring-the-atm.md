@@ -46,3 +46,6 @@ You can now move with your cursor to the desired variable and simply change it t
 
 In order to save the file and exit you will have to press `Ctrl + x` and it will ask you `Save modified buffer?`. You can confirm by entering `y` \(for yes\) and hitting `Enter` to confirm.
 
+{% hint style="success" %}
+Join the Telegram group here: [https://t.me/lightningatm\_building](https://t.me/lightningatm_building)
+{% endhint %}

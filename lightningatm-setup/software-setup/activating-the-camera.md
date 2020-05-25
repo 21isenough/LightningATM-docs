@@ -22,3 +22,6 @@ sudo raspi-config
 
 As your ATM has restarted, it should now have the camera enabled and be ready to take pictures 🖼 and scan QR codes.
 
+{% hint style="success" %}
+Join the Telegram group here: [https://t.me/lightningatm\_building](https://t.me/lightningatm_building)
+{% endhint %}

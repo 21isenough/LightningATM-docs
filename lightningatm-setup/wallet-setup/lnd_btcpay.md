@@ -98,3 +98,6 @@ Now take another Lightning Wallet \(people often use their mobile phone wallet\)
 
 Once the invoice has been scanned and was evaluated successfully, your LND node will try to pay it through the Lightning Network. If successful, both your mobile wallet and your ATM will confirm the transaction. Congratulations!! 😎
 
+{% hint style="success" %}
+Join the Telegram group here: [https://t.me/lightningatm\_building](https://t.me/lightningatm_building)
+{% endhint %}
