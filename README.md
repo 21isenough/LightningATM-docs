@@ -8,8 +8,6 @@ description: >-
 
 Hey 😉 Pleased to have you! You arrived on the documentation website to build your own LightningATM.
 
-This guide will be publicly released around the the 22nd May.
-
 ![](.gitbook/assets/incollage_20200429_162952315-1.jpg)
 
 ### 🔎 What you'll find here  :
