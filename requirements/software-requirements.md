@@ -18,8 +18,11 @@ There's not much you really need to prepare for. The major part of the software 
 
 
 
-* Everything else will be directly installed onto the Raspberry Pi during the installation of the ATM. Just follow along with the videos, it's quite straightforward. 
-  * Visit [https://github.com/21isenough/LightningATM](https://github.com/21isenough/LightningATM) 
+* Everything else will be directly installed onto the Raspberry Pi during the installation of the ATM. Just follow along with the videos, it's quite straightforward.
+  * Visit [https://github.com/21isenough/LightningATM](https://github.com/21isenough/LightningATM)
 
 ![https://www.youtube.com/watch?v=A9JKUQvvmYM](../.gitbook/assets/youtube_screenshot.png)
 
+{% hint style="success" %}
+Join the Telegram group here: [https://t.me/lightningatm\_building](https://t.me/lightningatm_building)
+{% endhint %}
