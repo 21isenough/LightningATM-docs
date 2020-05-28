@@ -22,6 +22,6 @@ sudo raspi-config
 
 As your ATM has restarted, it should now have the camera enabled and be ready to take pictures 🖼 and scan QR codes.
 
-{% hint style="success" %}
-Join the Telegram group here: [https://t.me/lightningatm\_building](https://t.me/lightningatm_building)
+{% hint style="info" %}
+If your camera doesn't recognize QR codes, make sure the focus of the camera is properly adjusted. You might need to adjust it manually with a pair of pliers. Check this [link for more details.](https://www.jeffgeerling.com/blog/2017/fixing-blurry-focus-on-some-raspberry-pi-camera-v2-models)
 {% endhint %}
