@@ -2,8 +2,6 @@
 
 ![](../../.gitbook/assets/wiring_details_numbered.jpg)
 
-(Add different picture with numbers for the steps below)
-
 ## Wiring Details
 
 1. USB power cable to supply 5V power to the step up converter \(standard USB micro cable can be cut in half and the `USB type A` part used for this\).
