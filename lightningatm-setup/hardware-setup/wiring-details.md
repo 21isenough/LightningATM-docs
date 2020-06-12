@@ -1,6 +1,6 @@
 # Wiring Details
 
-![](../../.gitbook/assets/img_20200209_151632.jpeg)
+![](../../.gitbook/assets/wiring_details_numbered.jpg)
 
 (Add different picture with numbers for the steps below)
 
