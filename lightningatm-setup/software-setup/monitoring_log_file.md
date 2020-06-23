@@ -1,6 +1,6 @@
 # Monitoring the log file
 
-## 👨💻 Install tmux
+## 💻 Install tmux
 
 In order to see what is going on the ATM and check the log file, we will first install `tmux`. Tmux is a terminal multiplexer for Unix-like operating systems and allows us to split our terminal screen in half \(among other things\). Install `tmux` with the following command on your ATM:
 
