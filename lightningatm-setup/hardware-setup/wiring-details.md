@@ -16,7 +16,7 @@
 
 ![](../../.gitbook/assets/pinout.png)
 
-This pinout is only applicable if you use the "PaPiRus Zero - ePaper / eInk Screen". For other eInk displays please refer to its manual or ask me directly for help.
+This pinout is only applicable if you use the "PaPiRus Zero - ePaper / eInk Screen". For other eInk displays please refer to its manual or ask in the Telegram group for help:
 
 {% hint style="success" %}
 Join the Telegram group here: [https://t.me/lightningatm\_building](https://t.me/lightningatm_building)
