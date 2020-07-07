@@ -17,6 +17,8 @@ Hey 😉 Pleased to have you! You arrived on the documentation website to build 
 * Written documentation for the software and wallet setup
 * Trouble shooting and FAQ section
 
+**Please be aware that this is a hobbyist project and it is not secure and reliable enough to withstand attacks. I discourage the use of this setup in a professional environment - but it's rather a good educational tool.**
+
 > 💻 For the code head over to [https://github.com/21isenough/LightningATM](https://github.com/21isenough/LightningATM)
 
 Feel free to join the "LightningATM" Telegram group for more information and help. Also a great way to communicate with other "ATM builders" and share knowledge and experience:
